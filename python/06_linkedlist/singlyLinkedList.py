@@ -187,6 +187,7 @@ class SinglyLinkedList(object):
         """
         fast = self.__head
         slow = self.__head
+        tmp = self._head
         step = 0
 
         while step <= n:
